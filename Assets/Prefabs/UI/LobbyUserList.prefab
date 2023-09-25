@@ -794,6 +794,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3253464371495375142}
     m_Modifications:
+    - target: {fileID: 774196503220678520, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1767503274657767312, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_Name
       value: UserUI_4
@@ -956,7 +960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3540056819003737500, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_fontSize
-      value: 26
+      value: 70.95
       objectReference: {fileID: 0}
     - target: {fileID: 3667934756810823183, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_fontSize
@@ -1018,6 +1022,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6442186483341508885, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6727759267638039682, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_Alpha
       value: 0
@@ -1062,7 +1070,8 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4826507163535553981, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
 --- !u!224 &3685075291402800769 stripped
 RectTransform:
@@ -1087,6 +1096,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9211655745301838380}
     m_Modifications:
+    - target: {fileID: 774196503220678520, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1014963910132780244, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1253,7 +1266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3540056819003737500, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_fontSize
-      value: 26
+      value: 70.95
       objectReference: {fileID: 0}
     - target: {fileID: 3667934756810823183, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_fontSize
@@ -1315,6 +1328,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6442186483341508885, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6496917371405060994, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1355,7 +1372,8 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4826507163535553981, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
 --- !u!224 &1550284535874684459 stripped
 RectTransform:
@@ -1380,6 +1398,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6642827980624390280}
     m_Modifications:
+    - target: {fileID: 774196503220678520, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1767503274657767312, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_Name
       value: UserUI_3
@@ -1542,7 +1564,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3540056819003737500, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_fontSize
-      value: 26
+      value: 70.95
       objectReference: {fileID: 0}
     - target: {fileID: 3667934756810823183, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_fontSize
@@ -1604,6 +1626,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6442186483341508885, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6727759267638039682, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_Alpha
       value: 0
@@ -1648,7 +1674,8 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4826507163535553981, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
 --- !u!114 &1646035575854440888 stripped
 MonoBehaviour:
@@ -1673,6 +1700,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2630686559100583219}
     m_Modifications:
+    - target: {fileID: 774196503220678520, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1767503274657767312, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_Name
       value: UserUI_2
@@ -1835,7 +1866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3540056819003737500, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_fontSize
-      value: 26
+      value: 70.95
       objectReference: {fileID: 0}
     - target: {fileID: 3667934756810823183, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_fontSize
@@ -1897,6 +1928,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6442186483341508885, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6727759267638039682, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
       propertyPath: m_Alpha
       value: 0
@@ -1941,7 +1976,8 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4826507163535553981, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9c09208dc6d58f54aabb57c12071b660, type: 3}
 --- !u!114 &4503217775887893542 stripped
 MonoBehaviour:

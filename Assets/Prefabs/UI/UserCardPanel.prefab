@@ -247,7 +247,6 @@ GameObject:
   - component: {fileID: 6727759267638039682}
   - component: {fileID: 5235189765028238254}
   - component: {fileID: 7885056472121154813}
-  - component: {fileID: 4826507163535553981}
   m_Layer: 5
   m_Name: UserCardPanel
   m_TagString: Untagged
@@ -325,7 +324,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: bc8c0e2bc04ce93488efe4ea898047a9, type: 3}
   - {fileID: 21300000, guid: f18a89c12a346a8488ed507a0bd79d2e, type: 3}
   - {fileID: 21300000, guid: 0fca28892f34375439c32b1ee1c8d655, type: 3}
-  m_VivoxUserHandler: {fileID: 4826507163535553981}
 --- !u!114 &7885056472121154813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,19 +350,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &4826507163535553981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767503274657767312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78d292f3bd9f1614cb744dcb4fe3ac12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_lobbyUserVolumeUI: {fileID: 7750493951695561362}
 --- !u!1 &3010031715874034773
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,7 +599,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4826507163535553981}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LobbyRelaySample.vivox.VivoxUserHandler, LobbyRelaySample
         m_MethodName: OnMuteToggle
         m_Mode: 0
@@ -1372,7 +1357,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4826507163535553981}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LobbyRelaySample.vivox.VivoxUserHandler, LobbyRelaySample
         m_MethodName: OnVolumeSlide
         m_Mode: 0

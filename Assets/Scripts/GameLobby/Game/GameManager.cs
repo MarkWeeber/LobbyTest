@@ -283,6 +283,7 @@ namespace LobbyRelaySample
 
         async void Awake()
         {
+            Debug.Log("Awake");
             Application.wantsToQuit += OnWantToQuit;
             m_LocalUser = new LocalPlayer("", 0, false, "LocalPlayer");
             m_LocalLobby = new LocalLobby { LocalLobbyState = { Value = LobbyState.Lobby } };
@@ -290,6 +291,11 @@ namespace LobbyRelaySample
 
             await InitializeServices();
             AuthenticatePlayer();
+        }
+
+        private void Start()
+        {
+            Debug.Log("Start");
         }
 
         async Task InitializeServices()
@@ -419,8 +425,10 @@ namespace LobbyRelaySample
 
         void OnDestroy()
         {
+            Debug.Log("On Destroy start");
             ForceLeaveAttempt();
             LobbyManager.Dispose();
+            Debug.Log("On Destroy end");
         }
 
         void ForceLeaveAttempt()
